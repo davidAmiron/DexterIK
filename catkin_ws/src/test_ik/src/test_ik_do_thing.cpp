@@ -34,9 +34,9 @@ void do_stuff() {
 	joint_test_positions(4) = 0;
 	
 	KDL::Frame end_effector_pose;
-	fk_solver.JntToCart(joint_test_positions. end_effector_pose);
+	fk_solver.JntToCart(joint_test_positions, end_effector_pose);
 
-	cout << end_effector_pose << endl;
+	//cout << end_effector_pose << endl;
 
 }
 
