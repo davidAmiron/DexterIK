@@ -1,0 +1,1915 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+      Splitter Ratio: 0.5
+    Tree Height: 549
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        kp0093_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        kp0093_1_0_kp0056-01_sb6703zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_100_kp0004-01_footbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_101_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_102_part_94:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_103_m3-16_92005a126_metric_pan_head_phillips_machine_scremw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_104_kp0052-01_b6807zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_105_kp0034-01_motorendcapendaxis:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_106_csf-14-2a-r_flexspline-1-solid1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_107_part_90:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_108_part_91:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_109_kp0026-01_nsk6810z:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_10_m4-washer_90965a150_type_316_stainless_steel_flat_washer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_110_m4-washer_90965a150_type_316_stainless_steel_flat_washer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_111_kp0010-01_statorbracketbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_112_m3-6_91292a111_type_18-8_ss_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_113_kp0078-01_toolshaft16iidbelt:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_114_part_126:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_115_kp0002-01_foot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_116_kp0003-01_footpadbare:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_117_part_95:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_118_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_119_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_11_part_88:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_120_14_wg_bearing-1-solid1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_121_kp0073-01_endaxishubshim:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_122_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_123_part_83:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_124_kp0022-01_flexsplineattatchlghs:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_125_m4-washer_90965a150_type_316_stainless_steel_flat_washer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_126_part_80:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_127_kp0035-01_pivotstatorholder:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_128_kp0003-01_footpadbare:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_129_kp0002-01_foot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_12_kp0077-01_diffbodysmallb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_130_kp0055-01_17mmshaftpullylargebelt:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_131_m3-16_92005a126_metric_pan_head_phillips_machine_scremw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_132_kp0068-01_endarmtubefitting:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_133_kp0027-01_slipring:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_134_part_78:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_135_kp0069-01_forarmbeam:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_136_kp0026-01_nsk6810z:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_137_kp0056-01_sb6703zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_138_kp0057-01_bigthreadpullyspacer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_139_kp0026-01_nsk6810z:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_13_kp0022-01_flexsplineattatchlghs:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_140_kp0007-01_basecodediskrafted:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_141_kp0061-01_smallelbowshaft:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_142_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_143_part_80:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_144_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_145_m3-16_91290a120_black-oxide_class_12.9_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_146_kp0082-01_smallwristshaft:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_147_kp0009-01_gearcsf-14-xxx-2a-r:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_148_kp0071-01_endaxishubhalf:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_149_kp0092-01_sidedifferentialgear2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_14_kp0063-01_8mmshaftpullybelt:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_150_part_23:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_151_kp0094-01_diffkeeper:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_152_kp0075-01_toolshaftendcap:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_153_part_89:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_154_part_87:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_155_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_156_part_78:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_157_kp0003-01_footpadbare:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_158__set-screw#5-40-0.25:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        kp0093_1_159_part_86:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_15_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_160_kp0025-01_mainpivotbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_161_m3-6_91292a111_type_18-8_ss_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_162_part_96:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_163_part_71:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_164_m3-16_91290a120_black-oxide_class_12.9_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_165_kp0047-01_axisintersectionhalfsm:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_166_m3-16_92005a126_metric_pan_head_phillips_machine_scremw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_167_kp0003-01_footpadbare:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_168_kp0024-01_wgcouplersetscrtr:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_169_kp0002-01_foot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_16_part_91:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_170_m3-16_91290a120_black-oxide_class_12.9_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_171_kp0036-01_rearstatorzen:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_172_kp0075-01_toolshaftendcap:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_173_kp0062-01_b678zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_174_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_175_part_91:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_176_kp0051-01_midarmcodediskraftedcamber:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_177_kp0041-01_pconnectcover:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_178_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_179_part_89:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_17_kp0025-01_mainpivotbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_180_part_86:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_181_m4-washer_90965a150_type_316_stainless_steel_flat_washer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_182_part_110:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_183_kp0013-01_mainpivotv2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_184_kp0002-01_foot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_185_kp0005-01_botbasestatorbracket:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_186_kp0093-01_toolinterface:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_187_part_92:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_188_m3-16_92005a126_metric_pan_head_phillips_machine_scremw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_189_part_89:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_18__set-screw#5-40-0.25:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        kp0093_1_190_part_89:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_191_kp0033-01_motorendcapbase:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_192_part_16:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_193_kp0026-01_nsk6810z:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_194_kp0062-01_b678zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_195_part_90:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_196_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_197_part_84:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_198_kp0056-01_sb6703zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_199_kp0080-01_toolshaft16idb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_19_kp0024-01_wgcouplersetscrtr:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_1_csf-14-2a-r_flexspline-1-solid1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_200_part_19:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_201_14_wg_bearing-1-solid1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_202_kp0023-01_camlevercsf-14-xxx-2a-r:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_203_part_94:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_204_kp0017-01_slipringbrusha:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_205_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_206_part_21:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_207_m3-16_92005a126_metric_pan_head_phillips_machine_scremw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_208_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_209_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_20_part_71:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_210_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_211_part_111:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_212_part_87:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_213_kp0062-01_b678zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_214_kp0004-01_footbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_215_kp0039-01_pivotphotointerupter:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_216_m3-6_91292a111_type_18-8_ss_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_217_part_88:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_218_part_25:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_219_m3-6_91292a111_type_18-8_ss_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_21_part_96:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_220_kp0062-01_b678zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_221_part_88:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_222_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_223_part_81:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_224_kp0023-01_camlevercsf-14-xxx-2a-r:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_225_part_22:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_226_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_227_kp0090-01_photoddiffa1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_228_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_229_part_74:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_22_m4-washer_90965a150_type_316_stainless_steel_flat_washer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_230_kp0028-01_armbodybottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_231_kp0059-01_pcbspacer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_232_part_76:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_233_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_234_m3-6_91292a111_type_18-8_ss_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_235_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_236_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_237_kp0066-01_endarmhubbottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_238_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_239_kp0010-01_statorbracketbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_23_kp0011-01_m3_96_low-strength_steel_fully_threaded_stud:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_240_kp0001-01_basemountbottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_241_part_90:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_242_kp0022-01_flexsplineattatchlghs:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_243_m3-16_92005a126_metric_pan_head_phillips_machine_scremw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_244_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_245_part_90:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_246_part_79:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_247_kp0010-01_statorbracketbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_248_part_95:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_249_kp0024-01_wgcouplersetscrtr:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_24_kp0006-01_baselite:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_250_m3-6_91292a111_type_18-8_ss_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_251_part_17:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_252_kp0003-01_footpadbare:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_253_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_254_m3-16_91290a120_black-oxide_class_12.9_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_255_14_wg_bearing-1-solid1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_256_m3-16_92005a126_metric_pan_head_phillips_machine_scremw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_257_part_93:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_258_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_259_kp0011-01_m3_96_low-strength_steel_fully_threaded_stud:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_25_part_26:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_260_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_261_kp0062-01_b678zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_262_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_263_kp0056-01_sb6703zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_264_kp0029-01_armbodybackintersection:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_265_kp0040-01_pivotphotolight:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_266__gpa16mr2060-k-pua_b:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_267_kp0080-01_toolshaft16idb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_268_kp0081-01_largewristshaft:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_269__gpa16mr2060-k-pua_b:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_26_kp0011-01_m3_96_low-strength_steel_fully_threaded_stud:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_270_kp0083-01_photoddiffa2tall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_271_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_272_kp0060-01_largeelbowshaft:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_273_part_92:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_274_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_275_m4-washer_90965a150_type_316_stainless_steel_flat_washer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_276_m3-16_92005a126_metric_pan_head_phillips_machine_scremw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_277_kp0030-01_armbodyintersection:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_278_kp0016-01_pivotskirtv2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_279_kp0067-01_endarmhubtop:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_27_kp0023-01_camlevercsf-14-xxx-2a-r:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_280_m3-16_92005a126_metric_pan_head_phillips_machine_scremw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_281_kp0037-01_externalgearbeltguidering:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_282_kp0080-01_toolshaft16idb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_283_kp0043-01_pconnectcovercapb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_284_m3-6_91292a111_type_18-8_ss_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_285_part_88:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_286_kp0052-01_b6807zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_287_part_76:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_288_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_289_kp0011-01_m3_96_low-strength_steel_fully_threaded_stud:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_28_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_290_kp0002-01_foot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_291_kp0062-01_b678zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_292_part_74:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_293_part_72:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_294_kp0078-01_toolshaft16iidbelt:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_295_kp0032-01_externalgearbelt:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_296_kp0056-01_sb6703zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_297_kp0026-01_nsk6810z:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_298_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_299_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_29_kp0042-01_pconnectcovercapa:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_2_kp0070-01_endaxishubc:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_300_kp0046-01_1intubeinterfaceb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_301_kp0053-01_compositebarshoulder:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_302_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_303_kp0058-01_pcbbracket:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_304_kp0004-01_footbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_305_part_87:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_306_kp0011-01_m3_96_low-strength_steel_fully_threaded_stud:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_307_part_87:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_308_part_82:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_309_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_30_kp0015-01_basephotointerrupterv2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_310_part_81:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_311_kp0068-01_endarmtubefitting:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_312_part_109:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_313_part_84:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_314_kp0089-01_diffa1codediskfine:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_315_kp0044-01_mainesocketfemsm:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_316_part_77:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_317_m3-16_92005a126_metric_pan_head_phillips_machine_scremw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_318_part_129:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_319_m3-16_91290a120_black-oxide_class_12.9_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_31_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_320_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_321_m3-16_91290a120_black-oxide_class_12.9_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_322_kp0079-01_diffa2codediskendstopfilled:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_323_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_324_part_20:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_325_kp0062-01_b678zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_326_part_88:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_327_m3-16_92005a126_metric_pan_head_phillips_machine_scremw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_328_kp0004-01_footbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_329_part_85:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_32_m3-16_91290a120_black-oxide_class_12.9_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_330_part_91:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_331_kp0050-01_newbeltpully:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_332_part_92:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_333_kp0025-01_mainpivotbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_334_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_335_part_82:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_336_kp0014-01_pivotwirecover:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_337_kp0056-01_sb6703zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_338_part_93:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_339_kp0080-01_toolshaft16idb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_33_kp0021-01_motorendcappivot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_340_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_341_kp0088-01_innerfrontdifferentialgear:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_342_m4-washer_90965a150_type_316_stainless_steel_flat_washer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_343_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_344_kp0065-01_17mmshaftpullybelt:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_345_part_85:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_346_m3-16_92005a126_metric_pan_head_phillips_machine_scremw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_347_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_348_part_93:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_349_part_94:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_34_part_83:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_350_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_351_part_92:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_352_part_93:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_353_part_96:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_354_part_95:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_355_part_24:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_35_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_36_kp0009-01_gearcsf-14-xxx-2a-r:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_37_m3-6_91292a111_type_18-8_ss_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_38_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_39_part_128:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_3_kp0046-01_1intubeinterfaceb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_40_part_127:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_41_kp0003-01_footpadbare:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_42_kp0091-01_smalldifferentialshaft:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_43_kp0056-01_sb6703zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_44_kp0045-01_mainesocketmasm:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_45_part_73:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_46_part_91:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_47_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_48_kp0048-01_axisintersectionhalfsm_b:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_49_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_4_kp0011-01_m3_96_low-strength_steel_fully_threaded_stud:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_50_m3-6_91292a111_type_18-8_ss_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_51_kp0010-01_statorbracketbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_52_part_18:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_53_part_89:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_54_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_55__set-screw#5-40-0.25:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        kp0093_1_56_part_79:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_57_kp0075-01_toolshaftendcap:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_58_csf-14-2a-r_flexspline-1-solid1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_59_kp0010-01_statorbracketbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_5_part_77:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_60_part_75:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_61_part_94:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_62_kp0004-01_footbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_63_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_64_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_65_kp0056-01_sb6703zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_66_kp0076-01_toolshaftspacer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_67_kp0009-01_gearcsf-14-xxx-2a-r:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_68_kp0064-01_16mmshaftendcap:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_69_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_6_kp0020-01_pivotcodedisk:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_70_kp0002-01_foot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_71_kp0004-01_footbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_72_kp0018-01_slipringbrushb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_73_part_95:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_74_part_72:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_75_m3-16_91290a120_black-oxide_class_12.9_socket_head_cap_screw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_76_kp0072-01_8mmshaftendpullybelt:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_77_part_73:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_78_part_75:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_79_m4-washer_90965a150_type_316_stainless_steel_flat_washer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_7_kp0049-01_mainhubphotointtrm:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_80_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_81_kp0054-01_8mmshaftpullylargebelt:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_82_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_83_part_87:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_84_kp0019-01_slipringbracketv2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_85_kp0087-01_sidedifferentialgear:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_86_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_87_kp0086-01_outterfrontdifferentialgear:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_88_m3-nut_90591a250_zinc_plated_steel_hex_nut:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_89_kp0025-01_mainpivotbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_8_kp0064-01_16mmshaftendcap:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_90_kp0056-01_sb6703zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_91_part_93:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_92_part_96:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_93_part_95:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_94_part_94:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_95_part_96:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_96_kp0062-01_b678zz_2_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_97_kp0010-01_statorbracketbar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_98__set-screw#5-40-0.25:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        kp0093_1_99_part_92:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kp0093_1_9_part_90:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+      Name: RobotModel
+      Robot Description: robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: map
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Theta std deviation: 0.2617993950843811
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 0.573514461517334
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.060203175991773605
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz)
+      Yaw: 5.043580532073975
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 846
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd000000040000000000000156000002b0fc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003d000002b0000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f000002b0fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073010000003d000002b0000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004b00000003efc0100000002fb0000000800540069006d00650100000000000004b0000002eb00fffffffb0000000800540069006d006501000000000000045000000000000000000000023f000002b000000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 1200
+  X: 1073
+  Y: 222

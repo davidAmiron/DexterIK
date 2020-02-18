@@ -1,0 +1,404 @@
+<robot name="dexter">
+
+<link name="kp0093_1" />
+
+<link name="kp0093_1_185_kp0005-01_botbasestatorbracket">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0005-01_botbasestatorbracket.stl" />
+        </geometry>
+        <material name="kp0093_1_185_kp0005-01_botbasestatorbracket_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0005-01_botbasestatorbracket.stl" />
+        </geometry>
+        <material name="kp0093_1_185_kp0005-01_botbasestatorbracket_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_185_kp0005-01_botbasestatorbracket_fixing" type="fixed">
+    <origin xyz="1.03585e-17 -4.1956e-32 0.0557" rpy="1.5708 2.90566e-17 -2.0944" />
+    <parent link="kp0093_1" />
+    <child link="kp0093_1_185_kp0005-01_botbasestatorbracket" />
+</joint>
+
+
+<link name="kp0093_1_24_kp0006-01_baselite">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0006-01_baselite.stl" />
+        </geometry>
+        <material name="kp0093_1_24_kp0006-01_baselite_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0006-01_baselite.stl" />
+        </geometry>
+        <material name="kp0093_1_24_kp0006-01_baselite_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_24_kp0006-01_baselite_fixing" type="fixed">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 1.047 -3.142" />
+    <parent link="kp0093_1_185_kp0005-01_botbasestatorbracket" />
+    <child link="kp0093_1_24_kp0006-01_baselite" />
+</joint>
+
+
+<link name="kp0093_1_33_kp0021-01_motorendcappivot">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0021-01_motorendcappivot.stl" />
+        </geometry>
+        <material name="kp0093_1_33_kp0021-01_motorendcappivot_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0021-01_motorendcappivot.stl" />
+        </geometry>
+        <material name="kp0093_1_33_kp0021-01_motorendcappivot_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_33_kp0021-01_motorendcappivot_fixing" type="fixed">
+    <origin xyz="0.0 -0.059 0.0" rpy="0.0 0.350 0.0" />
+    <parent link="kp0093_1_24_kp0006-01_baselite" />
+    <child link="kp0093_1_33_kp0021-01_motorendcappivot" />
+</joint>
+
+
+<link name="kp0093_1_183_kp0013-01_mainpivotv2">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0013-01_mainpivotv2.stl" />
+        </geometry>
+        <material name="kp0093_1_183_kp0013-01_mainpivotv2_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0013-01_mainpivotv2.stl" />
+        </geometry>
+        <material name="kp0093_1_183_kp0013-01_mainpivotv2_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_183_kp0013-01_mainpivotv2_fixing" type="revolute">
+    <origin xyz="0.0 -0.008 0.0" rpy="0.0 0.0 0.0" />
+    <parent link="kp0093_1_33_kp0021-01_motorendcappivot" />
+    <child link="kp0093_1_183_kp0013-01_mainpivotv2" />
+    <limit lower="-3.14" upper="3.14" effort="100" velocity="100" />
+    <axis xyz="0 1 0" />
+</joint>
+
+
+<link name="kp0093_1_230_kp0028-01_armbodybottom">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0028-01_armbodybottom.stl" />
+        </geometry>
+        <material name="kp0093_1_230_kp0028-01_armbodybottom_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0028-01_armbodybottom.stl" />
+        </geometry>
+        <material name="kp0093_1_230_kp0028-01_armbodybottom_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_230_kp0028-01_armbodybottom_fixing" type="revolute">
+    <origin xyz="0.057 -0.037 0.0" rpy="0.0 0.673 1.571" />
+    <parent link="kp0093_1_183_kp0013-01_mainpivotv2" />
+    <child link="kp0093_1_230_kp0028-01_armbodybottom" />
+    <limit lower="-3.14" upper="3.14" effort="100" velocity="100" />
+    <axis xyz="0 1 0" />
+</joint>
+
+
+<link name="kp0093_1_301_kp0053-01_compositebarshoulder">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0053-01_compositebarshoulder.stl" />
+        </geometry>
+        <material name="kp0093_1_301_kp0053-01_compositebarshoulder_material">
+            <color rgba="0.792157 0.819608 0.933333 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0053-01_compositebarshoulder.stl" />
+        </geometry>
+        <material name="kp0093_1_301_kp0053-01_compositebarshoulder_material">
+            <color rgba="0.792157 0.819608 0.933333 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_301_kp0053-01_compositebarshoulder_fixing" type="fixed">
+    <origin xyz="-0.168 -0.036 0.0" rpy="0.0 0.0 -3.142" />
+    <parent link="kp0093_1_230_kp0028-01_armbodybottom" />
+    <child link="kp0093_1_301_kp0053-01_compositebarshoulder" />
+</joint>
+
+
+<link name="kp0093_1_48_kp0048-01_axisintersectionhalfsm_b">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0048-01_axisintersectionhalfsm_b.stl" />
+        </geometry>
+        <material name="kp0093_1_48_kp0048-01_axisintersectionhalfsm_b_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0048-01_axisintersectionhalfsm_b.stl" />
+        </geometry>
+        <material name="kp0093_1_48_kp0048-01_axisintersectionhalfsm_b_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_48_kp0048-01_axisintersectionhalfsm_b_fixing" type="fixed">
+    <origin xyz="0.153 0.022 0.0" rpy="0.0 0.0 0.0" />
+    <parent link="kp0093_1_301_kp0053-01_compositebarshoulder" />
+    <child link="kp0093_1_48_kp0048-01_axisintersectionhalfsm_b" />
+</joint>
+
+
+<link name="kp0093_1_165_kp0047-01_axisintersectionhalfsm">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0047-01_axisintersectionhalfsm.stl" />
+        </geometry>
+        <material name="kp0093_1_165_kp0047-01_axisintersectionhalfsm_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0047-01_axisintersectionhalfsm.stl" />
+        </geometry>
+        <material name="kp0093_1_165_kp0047-01_axisintersectionhalfsm_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_165_kp0047-01_axisintersectionhalfsm_fixing" type="fixed">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+    <parent link="kp0093_1_48_kp0048-01_axisintersectionhalfsm_b" />
+    <child link="kp0093_1_165_kp0047-01_axisintersectionhalfsm" />
+</joint>
+
+
+<link name="kp0093_1_237_kp0066-01_endarmhubbottom">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0066-01_endarmhubbottom.stl" />
+        </geometry>
+        <material name="kp0093_1_237_kp0066-01_endarmhubbottom_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0066-01_endarmhubbottom.stl" />
+        </geometry>
+        <material name="kp0093_1_237_kp0066-01_endarmhubbottom_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_237_kp0066-01_endarmhubbottom_fixing" type="revolute">
+    <origin xyz="0.0 -0.051 0.0" rpy="0.000 1.549 -3.142" />
+    <parent link="kp0093_1_48_kp0048-01_axisintersectionhalfsm_b" />
+    <child link="kp0093_1_237_kp0066-01_endarmhubbottom" />
+    <limit lower="-3.14" upper="3.14" effort="100" velocity="100" />
+    <axis xyz="0 1 0" />
+</joint>
+
+
+<link name="kp0093_1_135_kp0069-01_forarmbeam">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0069-01_forarmbeam.stl" />
+        </geometry>
+        <material name="kp0093_1_135_kp0069-01_forarmbeam_material">
+            <color rgba="0.792157 0.819608 0.933333 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0069-01_forarmbeam.stl" />
+        </geometry>
+        <material name="kp0093_1_135_kp0069-01_forarmbeam_material">
+            <color rgba="0.792157 0.819608 0.933333 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_135_kp0069-01_forarmbeam_fixing" type="fixed">
+    <origin xyz="0.159 0.025 0.0" rpy="0 0 0" />
+    <parent link="kp0093_1_237_kp0066-01_endarmhubbottom" />
+    <child link="kp0093_1_135_kp0069-01_forarmbeam" />
+</joint>
+
+
+<link name="kp0093_1_2_kp0070-01_endaxishubc">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0070-01_endaxishubc.stl" />
+        </geometry>
+        <material name="kp0093_1_2_kp0070-01_endaxishubc_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0070-01_endaxishubc.stl" />
+        </geometry>
+        <material name="kp0093_1_2_kp0070-01_endaxishubc_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_2_kp0070-01_endaxishubc_fixing" type="fixed">
+    <origin xyz="0.142 -0.011 0.0" rpy="-3.142 0.0 0.0" />
+    <parent link="kp0093_1_135_kp0069-01_forarmbeam" />
+    <child link="kp0093_1_2_kp0070-01_endaxishubc" />
+</joint>
+
+
+<link name="kp0093_1_322_kp0079-01_diffa2codediskendstopfilled">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0079-01_diffa2codediskendstopfilled.stl" />
+        </geometry>
+        <material name="kp0093_1_322_kp0079-01_diffa2codediskendstopfilled_material">
+            <color rgba="0.74902 0.74902 0.74902 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0079-01_diffa2codediskendstopfilled.stl" />
+        </geometry>
+        <material name="kp0093_1_322_kp0079-01_diffa2codediskendstopfilled_material">
+            <color rgba="0.74902 0.74902 0.74902 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_322_kp0079-01_diffa2codediskendstopfilled_fixing" type="revolute">
+    <origin xyz="0.0 -0.024 0.0" rpy="0.0 -0.422 0.0" />
+    <parent link="kp0093_1_2_kp0070-01_endaxishubc" />
+    <child link="kp0093_1_322_kp0079-01_diffa2codediskendstopfilled" />
+    <limit lower="-3.14" upper="3.14" effort="100" velocity="100" />
+    <axis xyz="0 1 0" />
+</joint>
+
+
+<link name="kp0093_1_12_kp0077-01_diffbodysmallb">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0077-01_diffbodysmallb.stl" />
+        </geometry>
+        <material name="kp0093_1_12_kp0077-01_diffbodysmallb_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0077-01_diffbodysmallb.stl" />
+        </geometry>
+        <material name="kp0093_1_12_kp0077-01_diffbodysmallb_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_12_kp0077-01_diffbodysmallb_fixing" type="fixed">
+    <origin xyz="-0.021 -0.003 -0.021" rpy="-3.142 0.0 -1.571" />
+    <parent link="kp0093_1_322_kp0079-01_diffa2codediskendstopfilled" />
+    <child link="kp0093_1_12_kp0077-01_diffbodysmallb" />
+</joint>
+
+
+<link name="kp0093_1_87_kp0086-01_outterfrontdifferentialgear">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0086-01_outterfrontdifferentialgear.stl" />
+        </geometry>
+        <material name="kp0093_1_87_kp0086-01_outterfrontdifferentialgear_material">
+            <color rgba="0.792157 0.819608 0.933333 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0086-01_outterfrontdifferentialgear.stl" />
+        </geometry>
+        <material name="kp0093_1_87_kp0086-01_outterfrontdifferentialgear_material">
+            <color rgba="0.792157 0.819608 0.933333 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_87_kp0086-01_outterfrontdifferentialgear_fixing" type="revolute">
+    <origin xyz="0.021 -0.021 -0.021" rpy="-0.206 1.571 2.936" />
+    <parent link="kp0093_1_12_kp0077-01_diffbodysmallb" />
+    <child link="kp0093_1_87_kp0086-01_outterfrontdifferentialgear" />
+    <limit lower="-3.14" upper="3.14" effort="100" velocity="100" />
+    <axis xyz="0 1 0" />
+</joint>
+
+
+<link name="kp0093_1_186_kp0093-01_toolinterface">
+    <visual>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0093-01_toolinterface.stl" />
+        </geometry>
+        <material name="kp0093_1_186_kp0093-01_toolinterface_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://dexter/urdf/kp0093-01_toolinterface.stl" />
+        </geometry>
+        <material name="kp0093_1_186_kp0093-01_toolinterface_material">
+            <color rgba="0.745098 0.745098 0.745098 1.0" />
+        </material>
+    </collision>
+</link>
+
+<joint name="kp0093_1_kp0093_1_186_kp0093-01_toolinterface_fixing" type="fixed">
+    <origin xyz="0.0 0.043 0.0" rpy="-3.142 0.031 0.0" />
+    <parent link="kp0093_1_87_kp0086-01_outterfrontdifferentialgear" />
+    <child link="kp0093_1_186_kp0093-01_toolinterface" />
+</joint>
+
+</robot>
