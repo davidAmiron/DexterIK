@@ -128,7 +128,7 @@
 </link>
 
 <joint name="kp0093_1_kp0093_1_230_kp0028-01_armbodybottom_fixing" type="revolute">
-    <origin xyz="0.057 -0.037 0.0" rpy="0.0 0.673 1.571" />
+    <origin xyz="0.057 -0.037 0.0" rpy="0.0 0.0 1.571" />
     <parent link="kp0093_1_183_kp0013-01_mainpivotv2" />
     <child link="kp0093_1_230_kp0028-01_armbodybottom" />
     <limit lower="-3.14" upper="3.14" effort="100" velocity="100" />
@@ -234,7 +234,7 @@
 </link>
 
 <joint name="kp0093_1_kp0093_1_237_kp0066-01_endarmhubbottom_fixing" type="revolute">
-    <origin xyz="0.0 -0.051 0.0" rpy="0.000 1.549 -3.142" />
+    <origin xyz="0.0 -0.051 0.0" rpy="0.0 3.142 -3.142" />
     <parent link="kp0093_1_48_kp0048-01_axisintersectionhalfsm_b" />
     <child link="kp0093_1_237_kp0066-01_endarmhubbottom" />
     <limit lower="-3.14" upper="3.14" effort="100" velocity="100" />
@@ -314,11 +314,11 @@
 </link>
 
 <joint name="kp0093_1_kp0093_1_322_kp0079-01_diffa2codediskendstopfilled_fixing" type="revolute">
-    <origin xyz="0.0 -0.024 0.0" rpy="0.0 -0.422 0.0" />
+    <origin xyz="0.0 -0.024 0.0" rpy="0.0 0.0 0.0" />
     <parent link="kp0093_1_2_kp0070-01_endaxishubc" />
     <child link="kp0093_1_322_kp0079-01_diffa2codediskendstopfilled" />
     <limit lower="-3.14" upper="3.14" effort="100" velocity="100" />
-    <axis xyz="0 1 0" />
+    <axis xyz="0 -1 0" />
 </joint>
 
 
@@ -368,11 +368,11 @@
 </link>
 
 <joint name="kp0093_1_kp0093_1_87_kp0086-01_outterfrontdifferentialgear_fixing" type="revolute">
-    <origin xyz="0.021 -0.021 -0.021" rpy="-0.206 1.571 2.936" />
+    <origin xyz="0.021 -0.021 -0.021" rpy="0.206 -1.571 2.936" />
     <parent link="kp0093_1_12_kp0077-01_diffbodysmallb" />
     <child link="kp0093_1_87_kp0086-01_outterfrontdifferentialgear" />
     <limit lower="-3.14" upper="3.14" effort="100" velocity="100" />
-    <axis xyz="0 1 0" />
+    <axis xyz="0 -1 0" />
 </joint>
 
 
