@@ -103,7 +103,7 @@
     <origin xyz="0.0 -0.008 0.0" rpy="0.0 0.0 0.0" />
     <parent link="kp0093_1_33_kp0021-01_motorendcappivot" />
     <child link="kp0093_1_183_kp0013-01_mainpivotv2" />
-    <limit lower="-3.142" upper="3.142" effort="100" velocity="100" />
+    <limit lower="-1.571" upper="1.571" effort="100" velocity="100" />
     <axis xyz="0 1 0" />
 </joint>
 
