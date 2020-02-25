@@ -112,7 +112,7 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+ include
 # ${catkin_INCLUDE_DIRS}
 )
 
@@ -120,6 +120,8 @@ include_directories(
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/dexter.cpp
 # )
+
+add_library(dexter src/Dexter.cpp)
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
@@ -130,6 +132,10 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/dexter_node.cpp)
+
+add_executable(test_dexter src/test_dexter.cpp)
+#add_dependencies(test_dexter src/Dexter.h)
+target_link_libraries(test_dexter dexter)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

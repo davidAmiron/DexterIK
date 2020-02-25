@@ -1,4 +1,6 @@
-#include <string.h>
+#include <string>
+#include <sys/socket.h>
+#include <netinet/in.h>
 
 class Dexter
 {
@@ -16,4 +18,4 @@ private:
 	int to_arcseconds(float degrees);
 	
 
-}
+};
