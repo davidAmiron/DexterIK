@@ -38,13 +38,14 @@ Dexter::~Dexter()
 	close(sock_);
 }
 
-void Dexter::move_to_joints(float j1, float j2, float j3, float j4, float j5)
+void Dexter::move_to_joints(std::vector<float> joints)
 {
-	int j1_arc = Dexter::to_arcseconds(j1);
-	int j2_arc = Dexter::to_arcseconds(j2);
-	int j3_arc = Dexter::to_arcseconds(j3);
-	int j4_arc = Dexter::to_arcseconds(j4);
-	int j5_arc = Dexter::to_arcseconds(j5);
+	int j1_arc = Dexter::to_arcseconds(joints[0]);
+	int j2_arc = Dexter::to_arcseconds(joints[1]);
+	int j3_arc = Dexter::to_arcseconds(joints[2]);
+	int j4_arc = Dexter::to_arcseconds(joints[3]);
+	int j5_arc = Dexter::to_arcseconds(joints[4]);
+
 
 	std::ostringstream cmd_str;
 	cmd_str << "0 0 0 0 a "
@@ -54,17 +55,18 @@ void Dexter::move_to_joints(float j1, float j2, float j3, float j4, float j5)
 			<< j4_arc << " "
 			<< j5_arc << " ;";
 
+	cout << "Sending Values: " << cmd_str.str() << endl;
 	send(sock_, cmd_str.str().c_str(), cmd_str.str().length(), 0);
 
 	// Maybe send F opcode to make sure command is sent
 
-	char buffer[1024];
-	bzero(buffer, 1024);
+	// char buffer[1024];
+	// bzero(buffer, 1024);
 
-	int readret = read(sock_, buffer, 1024);
-	string value(buffer, readret);
-	cout << "Read ret: " << readret << endl;
-	cout << value << endl;
+	// int readret = read(sock_, buffer, 1024);
+	// string value(buffer, readret);
+	// cout << "Read ret: " << readret << endl;
+	// cout << value << endl;
 	//printf("%s", buffer);
 
 	// TODO: Figure out how to read data

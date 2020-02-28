@@ -7,7 +7,7 @@ project(dexter)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED)
+find_package(catkin REQUIRED roscpp std_msgs)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -112,8 +112,8 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
- include
-# ${catkin_INCLUDE_DIRS}
+# include
+ ${catkin_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
@@ -136,6 +136,15 @@ add_library(dexter src/Dexter.cpp)
 add_executable(test_dexter src/test_dexter.cpp)
 #add_dependencies(test_dexter src/Dexter.h)
 target_link_libraries(test_dexter dexter)
+
+add_executable(dexter_control src/dexter_control.cpp)
+target_link_libraries(dexter_control ${catkin_LIBRARIES} dexter)
+
+add_executable(button_press src/button_press.cpp)
+target_link_libraries(button_press ${catkin_LIBRARIES})
+
+add_executable(demo src/demo.cpp)
+target_link_libraries(demo ${catkin_LIBRARIES})
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
