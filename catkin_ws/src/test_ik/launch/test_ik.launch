@@ -5,7 +5,7 @@
 	<arg name="chain_end" default="kp0093_1_186_kp0093-01_toolinterface" />
 	<arg name="timeout" default="0.005" />
 
-	<param name="robot_description" textfile="$(find dexter)/urdf_simple/robot.urdf" />
+	<param name="robot_description" textfile="$(find dexter)/urdf/robot.urdf" />
 	<!--<param name="robot_description" command="$(find xacro)/xacro.py '$(find dexter)/urdf/robot.urdf'" />-->
 
 	<node name="test_trac_ik" pkg="test_ik" type="tester" output="screen">
