@@ -10,7 +10,7 @@ int main(int argc, char **argv)
 {
 	ros::init(argc, argv, "button");
 	ros::NodeHandle node;
-	ros::Publisher control = node.advertise<std_msgs::Float32MultiArray>("/control", 50);
+	ros::Publisher control = node.advertise<std_msgs::Float32MultiArray>("/control/deg", 50);
 
 	std::vector<std::vector<float>> positions;
 	positions.push_back({45, 0, 0, 0, 0});			// TODO: Figure out why the first

@@ -1,6 +1,8 @@
 #include "ros/ros.h"
 #include <trac_ik/trac_ik.hpp>
 #include <kdl/chainiksolverpos_nr_jl.hpp>
+#include "std_msgs/Float32MultiArray.h"
+#include <vector>
 
 using std::cout;
 using std::endl;
@@ -23,13 +25,25 @@ void print_frame(KDL::Frame frame) {
 
 void print_joints(KDL::JntArray joints) {
 	cout << "Joint Array:" << endl;
-	for (int i = 0; i < joints.rows(); i++) {
+	for (int i = 0; i < joints.rows(); i++)
+	{
 		cout << "\tJoint " << i << ": " << joints(i) << endl;
 	}
 	cout << endl;
 }
 
-void do_stuff() {
+std::vector<float> jnt_array_to_vector(KDL::JntArray joints)
+{
+	std::vector<float> joints_v;
+	for (int i = 0; i < joints.rows(); i++)
+	{
+		joints_v.push_back(joints(i));
+	}
+
+	return joints_v;
+}
+
+void do_stuff(ros::Publisher control) {
 	TRAC_IK::TRAC_IK tracik_solver("kp0093_1", "kp0093_1_186_kp0093-01_toolinterface",
 		"/robot_description", 5, 1e-2);
 
@@ -62,7 +76,7 @@ void do_stuff() {
 	cout << "Frame with all joints 0" << endl;
 	print_frame(end_effector_pose);
 
-	KDL::Frame frame(KDL::Rotation::RPY(-1.57, 0, -1.9), KDL::Vector(0, 0, 0.6));
+	KDL::Frame frame(KDL::Rotation::RPY(-1.5699, 0.000319, -1.89021), KDL::Vector(0, 0, 0.6));
 	cout << "Desired Frame" << endl;
 	print_frame(frame);
 
@@ -72,19 +86,27 @@ void do_stuff() {
 	cout << "Result Joints" << endl;
 	print_joints(result_joints);
 
+	
+	std_msgs::Float32MultiArray msg;
+	msg.data = jnt_array_to_vector(result_joints);
+	cout << "Publishing" << endl;
+	cout << jnt_array_to_vector(result_joints)[0] << endl;
+	control.publish(msg);
+
 }
 
 int main(int argc, char **argv) {
 
 	ros::init(argc, argv, "ik_tests");
 	ros::NodeHandle nh("~");
+	ros::Publisher control = nh.advertise<std_msgs::Float32MultiArray>("/control/rad", 50);
 
 	//int num_samples
 
 
 
 
-	do_stuff();
+	do_stuff(control);
 
 
 

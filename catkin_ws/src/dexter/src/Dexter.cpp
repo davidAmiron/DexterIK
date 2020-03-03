@@ -38,6 +38,7 @@ Dexter::~Dexter()
 	close(sock_);
 }
 
+// Joints in radians
 void Dexter::move_to_joints(std::vector<float> joints)
 {
 	int j1_arc = Dexter::to_arcseconds(joints[0]);
@@ -73,6 +74,6 @@ void Dexter::move_to_joints(std::vector<float> joints)
 
 }
 
-int Dexter::to_arcseconds(float degrees) {
-	return (int)(degrees * 3600);
+int Dexter::to_arcseconds(float radians) {
+	return (int)(radians * (180 / 3.14159265) * 3600);
 }
